@@ -39,5 +39,5 @@ Use console.log() to make sure your seed object got added to the array of plants
 import {plantSeeds} from "./tractor.js"
 plantSeeds(yearlyPlan)
 import { usePlants } from "./field.js"
-let test = usePlants()
-console.log(test)
+let plants = usePlants()
+//console.log(plants)
