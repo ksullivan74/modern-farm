@@ -12,6 +12,6 @@ output
 
 export const createPotato = () => 
 {
-    let potato = {Type: "Potato", Height: 32, Output: 2 }
+    let potato = {type: "Potato", height: 32, output: 2 }
     return potato
 }

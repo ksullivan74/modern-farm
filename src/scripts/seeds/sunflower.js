@@ -11,6 +11,6 @@ output
 */
 export const createSunflower = () => 
 {
-    let sunflower = {Type: "Sunflower", Height: 380, Output: 3 }
+    let sunflower = {type: "Sunflower", height: 380, output: 3 }
     return sunflower
 }

@@ -34,7 +34,7 @@ export const plantSeeds = (yearlyPlanParam) =>
     {
         for (const foodType of plan)
         {
-            if (foodType === "Potato"){addPlant(createPotato())}
+            if (foodType === "Potato") {addPlant(createPotato())}
             if (foodType === "Asparagus"){addPlant(createAsparagus())}
             if (foodType === "Corn"){addPlant(createCorn())}
             if (foodType === "Soybean"){addPlant(createSoybean())}

@@ -12,7 +12,7 @@ output
 
 export const createAsparagus = () =>
 {
-    let Asparagus = {Type: "Asparagus", Height: 24, Output: 4 }
+    let Asparagus = {type: "Asparagus", height: 24, output: 4 }
     return Asparagus
 }
 

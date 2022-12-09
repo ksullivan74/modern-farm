@@ -12,6 +12,6 @@ output
 
 export const createCorn = () => 
 {
-    let corn = [{Type: "Corn", Height: 180, Output: 6 }, {Type: "Corn", Height: 180, Output: 6 }]
+    let corn = [{type: "Corn", height: 180, output: 6 }, {type: "Corn", height: 180, output: 6 }]
     return corn
 }

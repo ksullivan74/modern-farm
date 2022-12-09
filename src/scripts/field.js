@@ -15,14 +15,20 @@ const plantsInField = []
 
 export const addPlant = (seedObject) => 
 {
-    plantsInField.push(seedObject)
+    if(Array.isArray(seedObject))
+    {
+        for (const corn of seedObject)
+        {
+            plantsInField.push(corn)
+        }
+    }
+    else(plantsInField.push(seedObject))
 }
 
 export const usePlants = () => 
 {
     //const obj = { ...array };
-    const object = [...plantsInField]
-    return object
+    return [...plantsInField]
 }
 
 /*
